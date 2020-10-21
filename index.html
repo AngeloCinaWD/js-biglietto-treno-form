@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
     <meta charset="utf-8">
     <title>Ticket From Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -33,8 +34,8 @@
                 <option value="Sconto Over 65 40%">Maggiore di 65 anni</option>
               </select>
             </div>
-
           </div>
+
           <div id="bottoni">
             <button id="generabiglietto" type="button" name="button">Genera</button>
             <input id="annulla" type="reset" name="" value="Annulla">
@@ -47,33 +48,46 @@
         <h1>IL TUO BIGLIETTO</h1>
         <div id="biglietto">
           <h2>DETTAGLIO PASSEGGERI</h2>
+          <div id="titoli">
+            <div class="titolo">
+              <h2>NOME <br> PASSEGGERO</h2>
+            </div>
+            <div class="titolo">
+              <h2>Offerta</h2>
+            </div>
+            <div class="titolo">
+              <h2>Carrozza</h2>
+            </div>
+            <div class="titolo">
+              <h2>Codice <br> CP</h2>
+            </div>
+            <div class="titolo">
+              <h2>Costo <br> biglietto</h2>
+            </div>
+          </div>
+
+
           <div id="informazioni">
             <div id="NomePasseggero">
-              <h2>NOME <br> PASSEGGERO</h2>
               <span id="passeggero"></span>
             </div>
 
             <div id="Offerta">
-              <h2>Offerta</h2>
               <span id="sconto"></span>
             </div>
 
             <div id="Carrozza">
-              <h2>Carrozza</h2>
               <span id="numeroCarrozza"></span>
             </div>
 
             <div id="codiceCP">
-              <h2>Codice <br> CP</h2>
               <span id="prenotazione"></span>
             </div>
 
             <div id="costo">
-              <h2>Costo <br> biglietto</h2>
               <span id="costoBiglietto"></span>
             </div>
           </div>
-
         </div>
       </div>
 

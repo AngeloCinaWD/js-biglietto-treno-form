@@ -2,26 +2,109 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #container {
   width: 80%;
   margin: auto;
-  padding: 50px;
+  padding: 20px 50px;
   /* min-height: 500px; */
-  background-color: lightgreen;
+  background-color: #ff0082;
 }
 
 h1 {
   text-align: center;
-  margin-bottom: 40px;
+  color: white;
 }
 
-#input, #bottoni, #informazioni {
+h3 {
+  text-align: center;
+  color: #ff0082;
+  margin-bottom: 20px;
+}
+
+#dati, #biglietto {
+  background-color: white;
+  padding: 20px;
+}
+
+#dati {
+  margin: 20px 0;
+}
+
+#input {
   display: flex;
   justify-content: space-around;
 }
 
+#bottoni {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#generabiglietto, #annulla {
+  color: #ff0082;
+  margin-right: 30px;
+  font-size: large;
+  font-weight: bold;
+}
+
+#campoTesto:focus, #percorrenza:focus, #fasciaDeta:focus {
+  background-color: #ff0082;
+}
+
 #tuobiglietto {
   display: none;
+}
+
+#titoli {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid grey;
+}
+
+.titolo, #NomePasseggero, #Offerta, #Carrozza, #codiceCP, #costo {
+  flex: 1;
+}
+
+.titolo {
+  padding: 10px 10px 0;
+}
+
+#NomePasseggero, #Offerta, #Carrozza, #codiceCP, #costo {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#titoli .titolo:first-child {
+  background-color: grey;
+}
+
+#informazioni {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid grey;
+}
+
+#NomePasseggero {
+  background-color: grey;
+}
+
+#Offerta, #Carrozza, #codiceCP, #costo {
+  padding-top: 40px;
+}
+
+#campoTesto, #percorrenza, #fasciaDeta {
+  border: 1px solid #ff0082;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#passeggero {
+  font-size: 25px;;
+  font-weight: 900;
 }
