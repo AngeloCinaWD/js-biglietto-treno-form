@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <meta charset="utf-8">
+    <title>Ticket From Form</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="calcolo">
+        <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+        <form id="dati">
+          <div id="input">
+            <div id="nome">
+              <h3>Nome Cognome</h3>
+              <input id="campoTesto" type="text" name="" value="">
+            </div>
+
+            <div id="km">
+              <h3>Km da percorrere</h3>
+              <input id="percorrenza" type="number" name="" value="">
+            </div>
+
+            <div id="nome">
+              <h3>Fascia d'età</h3>
+              <select id="fasciaDeta" class="" name="">
+                <option value=""></option>
+                <option value="Sconto Minorenne 20%">Meno di 18 anni</option>
+                <option value="Sconto non applicabile">Compresa fra 18 e 65 anni</option>
+                <option value="Sconto Over 65 40%">Maggiore di 65 anni</option>
+              </select>
+            </div>
+
+          </div>
+          <div id="bottoni">
+            <button id="generabiglietto" type="button" name="button">Genera</button>
+            <input id="annulla" type="reset" name="" value="Annulla">
+          </div>
+        </form>
+
+      </div>
+
+      <div id="tuobiglietto" class="display">
+        <h1>IL TUO BIGLIETTO</h1>
+        <div id="biglietto">
+          <h2>DETTAGLIO PASSEGGERI</h2>
+          <div id="informazioni">
+            <div id="NomePasseggero">
+              <h2>NOME <br> PASSEGGERO</h2>
+              <span id="passeggero"></span>
+            </div>
+
+            <div id="Offerta">
+              <h2>Offerta</h2>
+              <span id="sconto"></span>
+            </div>
+
+            <div id="Carrozza">
+              <h2>Carrozza</h2>
+              <span id="numeroCarrozza"></span>
+            </div>
+
+            <div id="codiceCP">
+              <h2>Codice <br> CP</h2>
+              <span id="prenotazione"></span>
+            </div>
+
+            <div id="costo">
+              <h2>Costo <br> biglietto</h2>
+              <span id="costoBiglietto"></span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <script type="text/javascript" src="js/myscript.js">
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 80%;
+  margin: auto;
+  padding: 50px;
+  /* min-height: 500px; */
+  background-color: lightgreen;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#input, #bottoni, #informazioni {
+  display: flex;
+  justify-content: space-around;
+}
+
+.display {
+  display: none;
+}
+
+.apparizione {
+  display: initial;
+}
